@@ -52,6 +52,6 @@ if __name__ == '__main__':
 
 By running this script, you’ll see the evolution of the training process and the performance improvement as new training examples are fed into the network.
 After the training finishes, you can check the predictions the network gives for the possible input values:
-![XOR Result](images/nnxorResult.png)
+![XOR Result Capture](images/nnxorResult.png)
 
 As you defined X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]), the expected output values are 0, 1, 1, and 0, which is consistent with the predicted outputs of the network, given you should round them to obtain binary values.
